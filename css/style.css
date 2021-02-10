@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+body{font-family: 'Raleway', sans-serif !important;}
+html{scroll-behavior: smooth;}
+.profile , .list-inline-item{
+	font-family: 'Roboto';
+	font-size: 18pt;
+}
+.card,.list-inline-item{transition: transform .2s;}
+.card:hover, .list-inline-item:hover{
+	-ms-transform: scale(1.08 ); /* IE 9 */
+    -webkit-transform: scale(1.08); /* Safari 3-8 */
+    transform: scale(1.08); 
+}
+.nav-link{
+	font-weight: 500;
+}
